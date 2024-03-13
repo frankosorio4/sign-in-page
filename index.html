@@ -1,0 +1,65 @@
+<!-- Utilizar CSS Grid ou Flexbox para a base da tela.
+Siga uma arquitetura próxima a imagem abaixo, não necessita copiar todos os elementos visuais / design. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Ex 3 Sign in</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="divLeft">
+                <h1 class="title">Sign in to<br> this session</h1>
+                <p class="subtitle" style="font-size: 15px;">If you don have an account, <br> You can <a href="#"
+                        id="register" target="_blank"><b>Register here!</b></a></p>
+
+            </div>
+
+            <div class="divRight">
+                <form id="login">
+                    <input id="email" type="email" placeholder="Email Address" required>
+                    
+                    <input id="id_password" class="mt-14" type="password" placeholder="Password" required>
+
+                    <div class="divTogglePassword">
+                        <i id="togglePassword" class="fa fa-eye"></i>
+                    </div>
+
+                    <a class="mtb-14" id="forgot" href="#">Forgot Password?</a>
+
+                    <button id="submitBtn" class="mt14" type="submit">Sing In</button>
+
+                </form>
+                <span id="or" class="mt-28">or</span>
+                <div class="socialNetworks mt-14">
+                    <div class="mt-14 aIcon">
+                        <img class="imgIcon" src="assets/google.png" alt="Google icon">
+                        <a id="google" href="#" target="_blank">Continue with Google</a>
+                    </div>
+                    <div class="mt-14 aIcon">
+                        <img class="imgIcon" src="assets/facebook.png" alt="Facebook icon">
+                        <a href="#" id="facebook" target="_blank">Continue with Facebook</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
+
+<!-- https://www.flaticon.com/br/icone-gratis/google_300221?term=google&page=1&position=1&origin=tag&related_id=300221 -->
+<!-- 
+https://www.flaticon.com/br/icone-gratis/facebook_3128304?term=facebook&related_id=3128304 -->
+
+<!-- https://copilot.microsoft.com/images/create/a-floating-person-with-their-cellphone-in-their-ha/1-65e64960d7904f97adf766b2bd2be502?id=zc%2bdKTJK9yYHiRCDmOXQww%3d%3d&view=detailv2&idpp=genimg&idpclose=1&thId=OIG1.sZlegInurQ23aSshxs9k&FORM=SYDBIC -->
